@@ -1,0 +1,92 @@
+.main-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speedometer-container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 55px;
+  }
+}
+
+.speedometer-image {
+  height: 125px;
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .speedometer-image {
+    height: 300px;
+    width: 700px;
+  }
+}
+
+.meter-reading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .meter-reading {
+    font-size: 30px;
+  }
+}
+
+.about-speed-details {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .about-speed-details {
+    font-size: 20px;
+  }
+}
+
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.apply-brake-btn {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  height: 40px;
+  width: 130px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+}
